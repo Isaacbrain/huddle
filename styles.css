@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: auto;
+    padding-bottom: 15px;
+    background-image: url(./images/bg-hero-desktop.svg);
+    background-color: aqua;
+}
+
+.first-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+.logo{
+    
+    
+}
+
+.secondary-button{
+    background-color: #FFF;
+    color: #000000;
+    font: 14px Arial;
+    width: 200px;
+    height: 51px;
+    font-weight: 700px;
+    font-size: 14px;
+    border-radius: 24px;
+    border: none;
+    box-shadow: 0px 3px 11px rgb(0 0 0 / 10%);
+    cursor: pointer;
+    
+}
+
+.second-header{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 2rem auto;
+    padding: 1rem;
+
+}
+
+.header-text{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+}
+
+#header-image{
+    display: flex;
+    width: 350px;
+    height: 250px;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 600px;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+p{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: 'Open Sans';
+
+
+}
+
+.primary-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 56px;
+    font-size: 14px;
+    font-weight: 700px;
+    background-color: #ff52c1;
+    color: #fff;
+    box-shadow: 2px 3px 6px 1px rgb(225, 82, 193 / 17%);
+    border-radius: 28px;
+    border: none;
+    cursor: pointer;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    margin-top: 6rem;
+    gap: 1rem;
+}
+
+.main-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 2rem auto;
+    gap: 8rem;
+    border-radius: 16px;
+    box-decoration-break: 0 0 14px rgb(0 0 0 / 7%);
+    padding: 2rem 4rem;
+}
+
+.card-content{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    row-gap: 1rem;
+}
+
+.card-image{
+    width: 40%;
+    height: 100%;
+}
